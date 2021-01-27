@@ -19,6 +19,11 @@ function App() {
       });
   }, []);
 
+  const handleClickCart = (id) => {
+    const newCart = cart.filter((product) => product.idMeal !== id )
+    setCart(newCart);
+  };
+
   const handleClick = (e, id) => {
     const selectProduct = products.filter((product) => product.idMeal === id);
     const checkProduct = cart.some((item) => (item.idMeal === id));
@@ -35,7 +40,7 @@ function App() {
     <div className="App">
       <Header />
       <Products products={products} handleClick={handleClick} />
-      <CartShop cart={cart} />
+      <CartShop cart={cart} handleClickCart={handleClickCart} />
     </div>
 
   );

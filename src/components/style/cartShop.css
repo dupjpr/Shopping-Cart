@@ -6,3 +6,11 @@
     height: 600px;
     background-color: blueviolet;
 }
+
+.cart-item{
+    width: 100%;
+}
+.cart-item img{
+    width: 50%;
+    border-radius: 50%;
+}
