@@ -14,7 +14,7 @@ function App() {
     fetch('https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood')
       .then(response => response.json())
       .then(data => {
-        const newSet = data.meals.map((product)=>{return {...product, price:1200}});
+        const newSet = data.meals.map((product)=>{return {...product, price:100}});
         setProducts(newSet);
       });
   }, []);
