@@ -27,13 +27,14 @@ function App() {
     setTotal(total - arrayDeleted[0].quantity*arrayDeleted[0].price);
   };
 
-  const handleClick = (e, id, units, setUnits) => {
+  const handleClick = (e, id, units, setUnits, element) => {
     const selectProduct = products.filter((product) => product.idMeal === id);
     const checkProduct = cart.some((item) => (item.idMeal === id));
     if (!checkProduct) {
       setCart([...cart, {...selectProduct[0], quantity:parseInt(units)}]);
       setUnits(1);
       setTotal(total + parseInt(units)*selectProduct[0].price);
+      element.value='';
     }    
   }
 

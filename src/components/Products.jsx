@@ -4,10 +4,13 @@ import './style/products.css';
 const Products = ({ products, handleClick }) => {
 
     const [units, setUnits] = useState(1);
+    const [element, setElement] = useState('');
    
     const handleChange = (e) =>{
         let quantity = e.target.value;
-        setUnits(quantity)
+        let input = e.target;
+        setUnits(quantity);
+        setElement(input);
     }
 
     return (
@@ -21,7 +24,7 @@ const Products = ({ products, handleClick }) => {
                         <p>cantidad</p>
                         <input type="number" min='1' onChange={(e)=> handleChange(e)}/>
                     </div>
-                    <button onClick={(e) => handleClick(e, product.idMeal, units, setUnits)}>Add to cart</button>
+                    <button onClick={(e) => handleClick(e, product.idMeal, units, setUnits, element)}>Add to cart</button>
                 </div>
             ))}
 
