@@ -34,7 +34,9 @@ function App() {
       setCart([...cart, {...selectProduct[0], quantity:parseInt(units)}]);
       setUnits(1);
       setTotal(total + parseInt(units)*selectProduct[0].price);
-      element.value='';
+      if(element.length != 0){
+        element.value='';
+      }
     }    
   }
 

@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import CartOperations from './CartOperations';
 
 import './style/cartShop.css';
 
