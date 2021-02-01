@@ -61,3 +61,196 @@ header{
     border-radius: 50%;
     text-align: center;
 }
+
+ /* animation */
+
+.logoA{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+} 
+
+.uno{
+    position: absolute;
+    bottom: -9%;
+    /* margin: 3% auto; */
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    border-top: 0;
+    border-left:0;
+    border-right:0;
+    animation-name: uno;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .uno::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:-100%;
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    border-top: 0;
+    border-left:0;
+    border-right:0;
+    animation-name: uno;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  }
+  .uno::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:100%;
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    border-top: 0;
+    border-left:0;
+    border-right:0;
+    animation-name: uno;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  
+  
+  .dos{
+    position: absolute;
+    bottom: -12%;
+    left: 40%;
+    margin: 0 auto;
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    border-top: 0;
+    border-left:0;
+    border-right:0;
+     animation-name: dos;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .dos::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:-100%;
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    border-top: 0;
+    border-left:0;
+    border-right:0;
+    animation-name: dos;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  }
+  .dos::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:100%;
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    border-top: 0;
+    border-left:0;
+    border-right:0;
+    animation-name: dos;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  
+  .tres{
+    position: absolute;
+    bottom: -15%;
+    left: -10%;
+    margin: 0 auto;
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    border-top: 0;
+    border-left:0;
+    border-right:0;
+    animation-name: tres;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  .tres::before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:-100%;
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    border-top: 0;
+    border-left:0;
+    border-right:0;
+    animation-name: tres;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  }
+  .tres::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:100%;
+    width: 50px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%; 
+    border-top: 0;
+    border-left:0;
+    border-right:0;
+    animation-name: tres;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  
+  @keyframes uno {
+    0%   {border-bottom: 2px solid #77bd5b;}
+    50%  {border-bottom: 2px solid #7695cc;}
+    100% {border-bottom: 2px solid #2d3588;}
+  }
+  
+  @keyframes dos {
+    0%   {
+      border-bottom: 2px solid #2d3588;
+    
+    }
+    50%  {
+      border-bottom: 2px solid #77bd5b;
+    }
+    100% {border-bottom: 2px solid #7695cc;}
+  }
+  
+  @keyframes tres {
+    0%   {border-bottom: 2px solid #7695cc;}
+    50%  {border-bottom: 2px solid #2d3588;}
+    100% {border-bottom: 2px solid #77bd5b;}
+  }
