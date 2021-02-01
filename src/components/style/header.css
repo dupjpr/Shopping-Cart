@@ -84,7 +84,7 @@ header{
     animation-name: uno;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
   }
   
   .uno::before{
@@ -102,6 +102,7 @@ header{
     animation-name: uno;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     
   }
   .uno::after{
@@ -119,6 +120,7 @@ header{
     animation-name: uno;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     
   }
   
@@ -139,7 +141,7 @@ header{
      animation-name: dos;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
   }
   
   .dos::before{
@@ -157,6 +159,7 @@ header{
     animation-name: dos;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     
   }
   .dos::after{
@@ -174,6 +177,7 @@ header{
     animation-name: dos;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     
   }
   
@@ -193,7 +197,7 @@ header{
     animation-name: tres;
     animation-duration: 4s;
     animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+    animation-timing-function: linear;
   }
   
   .tres::before{
@@ -211,6 +215,7 @@ header{
     animation-name: tres;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
     
   }
   .tres::after{
@@ -228,6 +233,8 @@ header{
     animation-name: tres;
     animation-duration: 4s;
     animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
     
   }
   
