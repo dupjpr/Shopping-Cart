@@ -19,6 +19,7 @@ function App() {
         const newSet = data.meals.map((product) => { return { ...product, price: 100 } });
         setProducts(newSet);
       });
+      console.log('cargando .......');
   }, []);
 
   const handleClickCart = (id) => {
