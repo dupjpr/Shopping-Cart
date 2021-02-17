@@ -17,7 +17,7 @@ In the shopping cart section the user can delete a product. In addition, the sho
 * React.
 * Html.
 * Css.
-* [Themealdb API] (https://www.themealdb.com/)
+* [Themealdb API](https://www.themealdb.com/)
 
 ## Autor
 
