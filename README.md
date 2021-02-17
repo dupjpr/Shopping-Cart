@@ -12,6 +12,8 @@ The shopping cart has a section where the user can choose a plate of food to buy
 
 In the shopping cart section the user can delete a product. In addition, the shopping cart shows the information about the money to pay for the food.
 
+Finally, a small animation with css was added to the Logo. This is not a responsive website.
+
 ## Built With :atom:
 
 * React.
