@@ -6,7 +6,7 @@ https://dupjpr.github.io/Shopping-Cart/
 
 ## Description :notebook_with_decorative_cover:
 
-this is my first shopping cart app using react. In this project I call and consult a free API. The API is themealdb and it's about food. I used the shellfish specific data set :fried_shrimp:. Below, in the Built With section, you will find the link to the API.
+This is my first shopping cart app using React. In this project I call and consult a free API. The API is themealdb and it's about food. I used the shellfish specific data set :fried_shrimp:. Below, in the Built With section, you will find the link to the API.
 
 The shopping cart has a section where the user can choose a plate of food to buy. The user has to define the number of units he wants and then add the plate to the shopping cart. At the top right of the page, there is a bag icon where the user can access and view the products added to the cart.
 
