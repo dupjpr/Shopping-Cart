@@ -17,6 +17,7 @@ Finally, a small animation with css was added to the Logo. This is not a respons
 ## Built With :atom:
 
 * React.
+* JavaScript.
 * Html.
 * Css.
 * [Themealdb API](https://www.themealdb.com/)
