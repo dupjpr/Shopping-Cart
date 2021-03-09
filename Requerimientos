@@ -1,0 +1,29 @@
+Requerimientos Funcionales
+
+Requerimientos generales de la aplicación. 
+
+- Presentar lista de productos para seleccionar. 
+- Mostrar información básica de cada producto (nombre, precio e imagen).
+- Botón para agregar producto seleccionado al carrito. 
+- Espacio para señalar la cantidad de unidades de un producto. 
+- Botón para acceder al carrito de compras. 
+
+Requerimientos específicos del carrito de compras. 
+
+- Carrito de compras. Espacio donde se van a agregar y gestionar los elementos que el usuario seleccione. 
+- Botón para cerrar el carrito de compras. 
+- Lista de productos agregados al carrito.
+- Botón para eliminar un elemento o producto del carrito. 
+- Información básica de cada producto en el carrito (nombre, imagen, precio y cantidad).
+- Total y subtotal del monto a pagar por el usuario. 
+- No incluir elementos que ya se encuentran agregados al carrito. 
+- Botón para pagar el monto de los objetos agregados al carrito. 
+
+Requerimientos No Funcionales
+
+- Animación en el logo. 
+- Información del número de productos agregados al carrito que se muestren en el botón de acceso al carrito. 
+- Información del monto a pagar por el usuario que se muestren en el botón de aceso al carrito. 
+- Pagina web adaptable a diferentes tamaños de pantalla. 
+- Mostrar información sobre formas de pago. 
+- Pagina web y carrito de compras construido con ReactJS.
