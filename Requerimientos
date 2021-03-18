@@ -27,3 +27,4 @@ Requerimientos No Funcionales
 - Pagina web adaptable a diferentes tamaños de pantalla. 
 - Mostrar información sobre formas de pago. 
 - Pagina web y carrito de compras construido con ReactJS.
+- Base de datos con la información de los productos. 
